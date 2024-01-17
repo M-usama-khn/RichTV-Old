@@ -1,0 +1,169 @@
+@media (min-width: 992px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-inner h1 {
+        font-size: 48px;
+    }
+    .hero-inner p {
+        font-size: 15px;
+    }
+    .nav-ul ul {
+        padding-right: 45px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-img {
+        text-align: center;
+    }
+    .hero-inner h1 {
+        font-size: 55px;
+    }
+    .hero-inner p {
+        font-size: 18px;
+    }
+    .stocks{
+        margin-top: 80px;
+    }
+    .videos-aside{
+        margin-top: 50px;
+    }
+    .nav-button{
+        margin-top: 20px;
+    }
+    .add-asside-section{
+        margin-bottom: 50px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar-text {
+        text-align: center;
+    }
+    .rpd-review-meta {
+        display: flex;
+        justify-content: center;
+        margin-top: 14px;
+    }
+    .bootom-content {
+        display: flex;
+        margin-bottom: 20px;
+        /* margin: 0 auto; */
+        justify-content: center;
+    }
+    .artical-1-blog {
+        display: block !important;
+        text-align: center;
+    }
+    .img-artical{
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .content-icons{
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .blog-row{
+        text-align: center;
+    }
+    .featured-multi-videos-btn{
+        text-align: center;
+    }
+    .featured-multi-videos{
+        text-align: center;
+    }
+    .email-collector-section {
+        padding: 66px 29px 62px 25px;
+    }
+    .email-collector-content h4 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .slick-slide img {
+        display: inline-block;
+        padding-top: 10px;
+    }
+    .testimonial-p {
+        padding-left: 0px;
+    }
+    .rpd-review-meta {
+        display: block;
+        padding-left: 0px;
+    }
+    .slick-dots {
+        width: 75%;
+    }
+    .featured-heading h2 {
+        font-size: 20px;
+    }
+    .hero-inner h1 {
+        font-size: 28px;
+    }
+    .hero-inner p {
+        font-size: 14px;
+    }
+    .rpd-main-home h2 {
+        font-size: 30px;
+    }
+    .video1, .video2, .video3, .video4{
+        max-width: 315.46px;
+        margin: 0 auto;
+    }
+    .video1 img, .video2 img, .video3 img, .video4 img{
+        width: 100%;
+    }
+}
+@media (max-width: 425px) {
+    .video1-content span {
+        font-size: 6px;
+    }
+    .video1-content a {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media (max-width: 375px) {
+    .stocks-pages li button {
+        padding: 10px 15.9px;
+    }
+    .nav-tabs button {
+        margin-right: 4px;
+    }
+    .nav-link {
+        display: block;
+        padding: 0.5rem 10px;
+    }
+    .artical-content a{
+        font-size: 12px;
+    }
+    .artical-content span{
+        font-size: 12px;
+    }
+    .artical-content p{
+        font-size: 12px;
+    }
+    .video-aside-blog1 a{
+        font-size: 10px !important;
+    }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1200px) { 
+    .artical-content p{
+        font-size: 12px;
+    }
+    .artical-content a{
+        font-size: 15px;
+    }
+}
